@@ -1,4 +1,10 @@
 iPhone Automation Projects
 
-1. Automated Text Forwading
--An automation that forwards a text received from a specific contact to a chosen contact if the text contains key words.
+Project: Automated Text Forwading
+
+Problem: 
+Important incoming messages needed to be forwarded automatically.
+
+Solution: 
+Built an iPhone Siri Shortcut that monitors incoming messages,
+checks for keywords, and forwards relevant notifications.
