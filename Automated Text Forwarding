@@ -1,0 +1,14 @@
+Automation: 
+  Run Immediately
+
+When: 
+  When I get a message containing '[word]' From [contact]
+
+Do:
+  Receive message as input
+  Get text from Content
+  If Any are true
+    Text contains [Word]
+    Text contains [Word]
+      Send text to [Contact]
+  End If
