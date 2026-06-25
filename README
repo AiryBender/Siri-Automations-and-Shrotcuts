@@ -8,3 +8,12 @@ Important incoming messages needed to be forwarded automatically.
 Solution: 
 Built an iPhone Siri Shortcut that monitors incoming messages,
 checks for keywords, and forwards relevant notifications.
+
+
+Project: Wifi Network Tracker
+
+Problem:
+No easy way to keep track of when and where iPhone connected to different networks.
+
+Solution:
+Built an automation that runs every time the device connects to a network. The automation timestamps and records the SSiD, Location into a Notes document to easily go back and read through. 
