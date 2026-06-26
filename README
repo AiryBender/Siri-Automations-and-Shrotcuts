@@ -1,6 +1,7 @@
 iPhone Automation Projects
 
-Project: Automated Text Forwading
+
+<Project: Automated Text Forwading>
 
 Problem: 
 Important incoming messages needed to be forwarded automatically.
@@ -10,10 +11,10 @@ Built an iPhone Siri Shortcut that monitors incoming messages,
 checks for keywords, and forwards relevant notifications.
 
 
-Project: Wifi Network Tracker
+<Project: Wi-Fi Network Logger>
 
 Problem:
-No easy way to keep track of when and where iPhone connected to different networks.
+Needed a way to be notified and quickly logged when and where the device connected to Wi-Fi networks.
 
 Solution:
-Built an automation that runs every time the device connects to a network. The automation timestamps and records the SSiD, Location into a Notes document to easily go back and read through. 
+Built an automation that runs every time the device connects to a network logging the SSiD, network name, location and timestamp into a Notes document. 
