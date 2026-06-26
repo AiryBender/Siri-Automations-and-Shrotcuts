@@ -1,0 +1,33 @@
+
+When: When Phone joins a Wi-Fi network
+
+Automation: Run Immediately
+
+Do:
+	Get Current Location
+	Get Wi-Fi network's Network Name
+		Set variable SSiD to Network Details
+	Current Date
+		Format Date
+			Date Format: Custom
+			Format String: yyyy-MM-dd hh:mm a
+			Locale: Default
+	If Name is [Home Network Name]
+		Show notification Joined [Home Network Name]
+		Text
+			----------------------------
+			Formatted Date
+			SSiD: SSiD
+			Location: Current Location
+			----------------------------
+		Append Text to [Note Document]
+	Otherwise
+		Show notification Joined a network 
+		Text
+			----------------------------
+			Formatted Date
+			SSiD: SSiD
+			Location: Current Location
+			----------------------------
+		Append Text to [Note Document]
+End If 
