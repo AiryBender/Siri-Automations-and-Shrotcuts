@@ -2,13 +2,13 @@ Automation:
   Run Immediately
 
 When: 
-  When I get a message containing '[word]' From [contact]
+  When I Get a Medsage Containing '[word]' From [Contact]
 
 Do:
   Receive message as input
   Get text from Content
   If Any are true
-    Text contains [Word]
-    Text contains [Word]
+    Text contains [word]
+    Text contains [word]
       Send text to [Contact]
   End If
